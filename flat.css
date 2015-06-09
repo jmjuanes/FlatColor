@@ -1,0 +1,155 @@
+/* ====================================================================
+===  FlatColor - github.com/jmjuanes/FlatColor
+===  Created by Jose M. Juanes [jmjuanes.es]
+===  Open source code. Enjoy!
+==================================================================== */
+
+/* strawberry */
+.flat-strawberry-light-bg { background-color: #ed5564; } 
+.flat-strawberry-light-c  { color: #ed5564; } 
+.flat-strawberry-dark-bg  { background-color: #d9434e; } 
+.flat-strawberry-dark-c   { color: #d9434e; } 
+
+/* red */
+.flat-red-light-bg { background-color: #ed5f55; } 
+.flat-red-light-c  { color: #ed5f55; } 
+.flat-red-dark-bg  { background-color: #da4d44; } 
+.flat-red-dark-c   { color: #da4d44; } 
+
+/* watermelon */
+.flat-watermelon-light-bg { background-color: #f1868d; } 
+.flat-watermelon-light-c  { color: #f1868d; } 
+.flat-watermelon-dark-bg  { background-color: #de6d71; } 
+.flat-watermelon-dark-c   { color: #de6d71; } 
+
+/* orange */
+.flat-orange-light-bg { background-color: #f77e51; } 
+.flat-orange-light-c  { color: #f77e51; } 
+.flat-orange-dark-bg  { background-color: #e7663f; } 
+.flat-orange-dark-c   { color: #e7663f; } 
+
+/* meat */
+.flat-meat-light-bg { background-color: #fdc396; } 
+.flat-meat-light-c  { color: #fdc396; } 
+.flat-meat-dark-bg  { background-color: #e6b289; } 
+.flat-meat-dark-c   { color: #e6b289; } 
+
+/* pumpkin */
+.flat-pumpkin-light-bg { background-color: #fab153; } 
+.flat-pumpkin-light-c  { color: #fab153; } 
+.flat-pumpkin-dark-bg  { background-color: #f49a42; } 
+.flat-pumpkin-dark-c   { color: #f49a42; } 
+
+/* yellow */
+.flat-yellow-light-bg { background-color: #fcce54; } 
+.flat-yellow-light-c  { color: #fcce54; } 
+.flat-yellow-dark-bg  { background-color: #f5ba42; } 
+.flat-yellow-dark-c   { color: #f5ba42; } 
+
+/* sand */
+.flat-sand-light-bg { background-color: #f2e2bf; } 
+.flat-sand-light-c  { color: #f2e2bf; } 
+.flat-sand-dark-bg  { background-color: #dbcba4; } 
+.flat-sand-dark-c   { color: #dbcba4; } 
+
+/* cofee */
+.flat-cofee-light-bg { background-color: #b09886; } 
+.flat-cofee-light-c  { color: #b09886; } 
+.flat-cofee-dark-bg  { background-color: #9e8775; } 
+.flat-cofee-dark-c   { color: #9e8775; } 
+
+/* brown */
+.flat-brown-light-bg { background-color: #756052; } 
+.flat-brown-light-c  { color: #756052; } 
+.flat-brown-dark-bg  { background-color: #6a584b; } 
+.flat-brown-dark-c   { color: #6a584b; } 
+
+/* maroon */
+.flat-maroon-light-bg { background-color: #8c4e49; } 
+.flat-maroon-light-c  { color: #8c4e49; } 
+.flat-maroon-dark-bg  { background-color: #7c4642; } 
+.flat-maroon-dark-c   { color: #7c4642; } 
+
+/* lime */
+.flat-lime-light-bg { background-color: #c2d468; } 
+.flat-lime-light-c  { color: #c2d468; } 
+.flat-lime-dark-bg  { background-color: #b0c151; } 
+.flat-lime-dark-c   { color: #b0c151; } 
+
+/* green */
+.flat-green-light-bg { background-color: #99d468; } 
+.flat-green-light-c  { color: #99d468; } 
+.flat-green-dark-bg  { background-color: #82c250; } 
+.flat-green-dark-c   { color: #82c250; } 
+
+/* emerald */
+.flat-emerald-light-bg { background-color: #42cb6f; } 
+.flat-emerald-light-c  { color: #42cb6f; } 
+.flat-emerald-dark-bg  { background-color: #3ab75c; } 
+.flat-emerald-dark-c   { color: #3ab75c; } 
+
+/* mint */
+.flat-mint-light-bg { background-color: #47cec0; } 
+.flat-mint-light-c  { color: #47cec0; } 
+.flat-mint-dark-bg  { background-color: #3bbeb0; } 
+.flat-mint-dark-c   { color: #3bbeb0; } 
+
+/* water */
+.flat-water-light-bg { background-color: #4ec2e7; } 
+.flat-water-light-c  { color: #4ec2e7; } 
+.flat-water-dark-bg  { background-color: #3bb1d9; } 
+.flat-water-dark-c   { color: #3bb1d9; } 
+
+/* blue */
+.flat-blue-light-bg { background-color: #5c9ded; } 
+.flat-blue-light-c  { color: #5c9ded; } 
+.flat-blue-dark-bg  { background-color: #4a8bdb; } 
+.flat-blue-dark-c   { color: #4a8bdb; } 
+
+/* dblue */
+.flat-dblue-light-bg { background-color: #6a7baf; } 
+.flat-dblue-light-c  { color: #6a7baf; } 
+.flat-dblue-dark-bg  { background-color: #566693; } 
+.flat-dblue-dark-c   { color: #566693; } 
+
+/* powder */
+.flat-powder-light-bg { background-color: #c2d1f3; } 
+.flat-powder-light-c  { color: #c2d1f3; } 
+.flat-powder-dark-bg  { background-color: #a8b7db; } 
+.flat-powder-dark-c   { color: #a8b7db; } 
+
+/* royal */
+.flat-royal-light-bg { background-color: #9398ec; } 
+.flat-royal-light-c  { color: #9398ec; } 
+.flat-royal-dark-bg  { background-color: #7277d5; } 
+.flat-royal-dark-c   { color: #7277d5; } 
+
+/* magenta */
+.flat-magenta-light-bg { background-color: #cb93ec; } 
+.flat-magenta-light-c  { color: #cb93ec; } 
+.flat-magenta-dark-bg  { background-color: #b276d8; } 
+.flat-magenta-dark-c   { color: #b276d8; } 
+
+/* pink */
+.flat-pink-light-bg { background-color: #ec87bf; } 
+.flat-pink-light-c  { color: #ec87bf; } 
+.flat-pink-dark-bg  { background-color: #d870ad; } 
+.flat-pink-dark-c   { color: #d870ad; } 
+
+/* white */
+.flat-white-light-bg { background-color: #f1f2f4; } 
+.flat-white-light-c  { color: #f1f2f4; } 
+.flat-white-dark-bg  { background-color: #e2e3e7; } 
+.flat-white-dark-c   { color: #e2e3e7; } 
+
+/* gray */
+.flat-gray-light-bg { background-color: #c7cbd4; } 
+.flat-gray-light-c  { color: #c7cbd4; } 
+.flat-gray-dark-bg  { background-color: #a5adb8; } 
+.flat-gray-dark-c   { color: #a5adb8; } 
+
+/* navy */
+.flat-navy-light-bg { background-color: #526475; } 
+.flat-navy-light-c  { color: #526475; } 
+.flat-navy-dark-bg  { background-color: #4b5a6a; } 
+.flat-navy-dark-c   { color: #4b5a6a; } 

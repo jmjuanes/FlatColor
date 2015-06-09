@@ -1,0 +1,89 @@
+<html>
+<head>
+
+	<!-- Metas tag -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	
+	<!-- Descripcion -->
+	<meta name="description" content="Flat color palette">
+	<meta name="author" content="Jose Miguel Juanes">
+	<meta name="keywords" content="jmjuanes, flat, colors, palette, colour, color">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="https://jmassets.github.io/fonts/opensans.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="flat.css">
+	
+	<!-- Title -->
+	<title>Flat Color palette</title>
+	
+	<!-- Script -->
+	<script type="text/javascript">
+	
+		// Load function
+		window.onload = function(){ Ini(); };
+		
+		// Init function
+		function Ini()
+		{
+			// Colours
+			var color = ['strawberry', 'red', 'watermelon', 'orange', 'meat', 'pumpkin', 'yellow', 'sand', 'cofee', 'brown', 'maroon', 'lime', 'green', 'emerald', 'mint', 'water', 'blue', 'dblue', 'powder', 'royal', 'magenta', 'pink', 'white', 'gray', 'navy']; 
+			
+			// Get the main
+			var main = document.getElementById('main');
+			
+			// Creates the html
+			var h = '';
+			
+			// Loop
+			for (i in color)
+			{
+				// Create the box
+				h = h + '<div class="box">';
+				
+				// Left color
+				h = h + '<div class="box-color-left flat-' + color[i] + '-light-bg"></div>';
+				
+				// Right color
+				h = h + '<div class="box-color-right flat-' + color[i] + '-dark-bg"></div>';
+				
+				// Text
+				h = h + '' + color[i] + '';
+				
+				// Ends the box
+				h = h + '</div>';
+			}
+			
+			// Save all the boxes
+			main.innerHTML = h;		
+		}
+		
+	</script>
+	
+</head>
+<body>
+
+	<!-- Head -->
+	<div align="center" class="head">
+	
+		<!-- Title -->
+		<span class="h1">FlatColors</span><br>
+		<span class="h2">Free flat colors palette</span><br>
+		<a href="flat.css" target="_blank" class="download">Download CSS</a>
+		
+	</div>
+	
+	<!-- Color div -->
+	<div class="main" id="main" align="center"></div>
+	
+	<!-- Foot -->
+	<div class="foot" align="center">
+		
+		<!-- Copyright -->
+		<a href="http://www.jmjuanes.es" class="h3">Josemi Juanes [www.jmjuanes.es]</a><br>
+		
+	</div>
+
+</body>
+</html>
