@@ -12,54 +12,14 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="https://jmassets.github.io/fonts/opensans.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
 	<link rel="stylesheet" type="text/css" href="flat.css">
 	
 	<!-- Title -->
 	<title>Flat Color palette</title>
 	
 	<!-- Script -->
-	<script type="text/javascript">
-	
-		// Load function
-		window.onload = function(){ Ini(); };
-		
-		// Init function
-		function Ini()
-		{
-			// Colours
-			var color = ['strawberry', 'red', 'watermelon', 'orange', 'meat', 'pumpkin', 'yellow', 'sand', 'cofee', 'brown', 'maroon', 'lime', 'green', 'emerald', 'mint', 'water', 'blue', 'dblue', 'powder', 'royal', 'magenta', 'pink', 'white', 'gray', 'navy']; 
-			
-			// Get the main
-			var main = document.getElementById('main');
-			
-			// Creates the html
-			var h = '';
-			
-			// Loop
-			for (i in color)
-			{
-				// Create the box
-				h = h + '<div class="box">';
-				
-				// Left color
-				h = h + '<div class="box-color-left flat-' + color[i] + '-light-bg"></div>';
-				
-				// Right color
-				h = h + '<div class="box-color-right flat-' + color[i] + '-dark-bg"></div>';
-				
-				// Text
-				h = h + '' + color[i] + '';
-				
-				// Ends the box
-				h = h + '</div>';
-			}
-			
-			// Save all the boxes
-			main.innerHTML = h;		
-		}
-		
-	</script>
+	<script type="text/javascript" src="assets/main.js"></script>
 	
 </head>
 <body>
@@ -73,6 +33,10 @@
 		<a href="flat.css" target="_blank" class="download">Download CSS</a>
 		
 	</div>
+	
+	<!-- Copy box -->
+	<div class="copy" id="box-copy" onclick="Flat.Copy();">Your color choice: <span id="copy-color"></span>. Click to copy to clipboard.
+	 </div>
 	
 	<!-- Color div -->
 	<div class="main" id="main" align="center"></div>

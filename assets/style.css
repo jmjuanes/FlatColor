@@ -30,5 +30,10 @@ body { color: #526475; font-family: OpenSans; font-size: 18px; }
 .box-color-left { border-top-left-radius: 5px; } 
 .box-color-right { border-top-right-radius: 5px; } 
 
+/* Copied color */
+.copy { display: none; position: fixed; top: 0px; left: 0px; z-index: 999999; } 
+.copy { width: 100%; padding-top: 20px; padding-bottom: 20px; color: #ffffff; } 
+.copy { font-size: 18px; font-weight: bold; text-align: center; } 
+
 /* Foot */
 .foot { display: block; padding-top: 50px; padding-bottom: 30px; } 
